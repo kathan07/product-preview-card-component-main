@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300&family=Montserrat:wght@600&display=swap" rel="stylesheet">
+
+
+  <title>Frontend Mentor | Product preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class="bg-[#f2eae2] flex items-center justify-center h-screen">
+  <div class="bg-white w-2/5 h-fit flex rounded-md">
+    <div class="w-1/2 h-full rounded-md">
+      <img src="images\image-product-desktop.jpg" class="w-full h-full rounded-l-md">
+    </div> 
+    <div class="w-1/2 h-full flex-row">
+      <p class="text-[#6C7289] my-2 mx-8 text-xl font-mono tracking-wider mt-6" >Perfume</p>
+      <p class="mt-4 w-32 mx-8 text-lg font-bold tracking-widest">Gabrielle Essence Eau De Parfum</p>
+      <p class="text-[#6C7289] w-3/4 mx-8 my-4 text-lg">A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
+      <div class="flex">
+        <p class="text-[#3C8067] mb-6 ms-8 text-4xl font-bold font-sans">$149.99</p>
+        <p class="mb-6 mt-3 text-sm line-through ms-2">$169.99</p>
+      </div>
+      
+      <button type="button" class="h-10 w-56 mb-4 bg-green-950 mx-8 rounded-md text-white flex justify-center items-center text-md font-semibold"><img src="icons8-cart-32.png" class="mx-2.5">Add to Cart</button>
+    </div>
+  </div>
+</body>
+</html>
